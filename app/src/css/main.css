@@ -236,11 +236,6 @@ nav .grid-40 {
     padding: 0;
     display: inline-block;
     font-weight: 600; }
-  .order__start--month {
-    font-size: 27px;
-    padding: 0;
-    margin: 10px 0 0 -12px;
-    display: inline-block; }
   .order__start--ili {
     font-size: 25px;
     color: #fff;
@@ -374,15 +369,28 @@ nav .grid-40 {
   .OStariffs__text--windows {
     padding: 0 16px 0 17px; }
 
-.offers {
-  padding: 49px 0 0 0;
+.offer {
+  margin: 77px 0 0 0;
   background-color: #d4d4d4;
   height: 768px;
   width: 100%; }
-  .offers__list-info {
-    margin: 0;
-    padding: 0; }
-  .offers__buy-button {
+  .offer__body {
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+    padding: 17px 0 0 5px;
+    display: grid;
+    letter-spacing: -0.6px; }
+  .offer__header {
+    color: #000;
+    font-size: 34px;
+    text-align: center;
+    display: grid;
+    padding: 29px 0 0 0;
+    letter-spacing: -5px;
+    border-top: 2px solid #01f;
+    border-radius: 8px; }
+  .offer__buy-button {
     border: none;
     color: #050505;
     padding: 5px 4px;
@@ -394,78 +402,94 @@ nav .grid-40 {
     height: 52px;
     background: #cdd6db;
     display: inline-block;
-    margin: 75px 0 0 27px; }
-  .offers__buy-text {
-    padding: 18px 0 0 0;
+    margin: 54px 0 0 27px; }
+  .offer__buy-text {
+    padding: 15px 0 0;
     font-size: 18px;
     color: cadetblue; }
-  .offers__aside {
+  .offer__ili {
+    font-size: 15px;
+    color: #4e4e4e;
+    text-align: center;
+    padding: 11px 0 0 8px;
+    display: block; }
+  .offer__aside {
     background-color: #e2e2e2;
     margin: 28px 0 0 0;
     position: relative; }
-    .offers__aside--functions {
-      color: #666666;
-      font-size: 16px;
-      margin: 0; }
-    .offers__aside--ftraffic {
-      color: #666666;
-      padding: 0 0 0 30px;
-      margin: 0; }
-  .offers__block-info {
-    list-style-type: none;
-    position: relative;
-    border-bottom: 2px solid #4a4a4a;
-    padding: 22px 0 0 52px; }
-    .offers__block-info::before, .offers__block-info::after {
-      position: absolute;
-      width: 3px;
-      height: 9px;
-      background-color: #5fb300;
-      left: -8px;
-      top: 6px;
-      content: "";
-      transform: rotate(45deg); }
-    .offers__block-info::after {
-      height: 3px;
-      left: -12px;
-      top: 9px; }
-  .offers .images_sherlosk {
+  .offer .images_sherlosk {
     position: absolute;
     left: -527px;
-    bottom: -127px; }
-  .offers .images_sherlosk img {
+    bottom: -9px; }
+  .offer .images_sherlosk img {
     height: 365px; }
-  .offers__centr {
-    background-color: #e7e7e7;
-    height: 723px; }
-  .offers__header {
-    color: #000;
-    font-size: 34px;
+  .offer__centr {
+    background-color: #e7e7e7; }
+  .offer__text-block {
     text-align: center;
-    display: grid;
-    padding: 29px 0 0 0;
-    letter-spacing: -5px; }
-    .offers__header--max {
-      padding: 29px 22px 0 0; }
-  .offers__body {
-    text-align: center;
-    color: #000;
-    font-size: 13px;
-    padding: 17px 0 0 17px;
-    display: grid;
-    letter-spacing: -0.6px; }
-  .offers__price {
+    display: flex;
+    font-size: 14px;
+    color: cornflowerblue;
+    padding: 14px 0 0 59px; }
+  .offer__price {
     background-color: #ccc;
     margin: 21px 20px 0 25px;
     border-radius: 6px;
     text-align: center;
     padding: 10px 0 17px 0; }
-    .offers__price__ruble {
-      padding: 28px 11px 0 0;
+    .offer__price--ruble {
+      padding: 0;
+      margin: 0;
       display: inline-block;
       font-size: 20px; }
-  .offers__quantity {
-    font-size: 35px; }
+    .offer__price--quantity {
+      padding: 0;
+      margin: 0;
+      font-size: 35px; }
+    .offer__price--month {
+      padding: 0;
+      margin: 0;
+      display: inline-block; }
+  .offer__list-info {
+    margin: 18px 20px;
+    padding: 0; }
+  .offer__block-info {
+    list-style-type: none;
+    position: relative;
+    border-bottom: 2px solid #4a4a4a;
+    padding: 10px 0;
+    padding-left: 35px; }
+    .offer__block-info::before, .offer__block-info::after {
+      position: absolute;
+      width: 3px;
+      height: 9px;
+      background-color: #5fb300;
+      left: 15px;
+      top: 50%;
+      content: "";
+      transform: rotate(45deg) translate(-50%, 0); }
+    .offer__block-info::after {
+      height: 3px;
+      left: calc(15px - 4px);
+      top: calc(50% + 3px); }
+  .offer__functions {
+    color: #666666;
+    font-size: 16px;
+    margin: 0; }
+  .offer__ftraffic-figure {
+    float: right;
+    width: 35%;
+    margin: 0;
+    color: #989797;
+    padding: 4px 14px 0 0;
+    font-size: 14.7px; }
+  .offer__ftraffic {
+    color: red;
+    float: right;
+    width: 35%;
+    margin: 0;
+    padding: 4px 14px 0 0;
+    font-size: 14.7px; }
 
 /*Responsive start*/
 /*UltraLarge screens start*/

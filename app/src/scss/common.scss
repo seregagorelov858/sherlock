@@ -273,13 +273,6 @@ nav .grid-40 {
       font-weight: 600;
     }
 
-    &--month {
-      font-size: 27px;
-      padding: 0;
-      margin: 10px 0 0 -12px;
-      display: inline-block;
-    }
-
     &--ili {
       font-size: 25px;
       color: #fff;
@@ -451,15 +444,32 @@ nav .grid-40 {
   }
 }
 
-.offers {
-  padding: 49px 0 0 0;
+
+
+.offer {
+  margin: 77px 0 0 0;
   background-color: #d4d4d4;
   height: 768px;
   width: 100%;
 
-  &__list-info {
-    margin: 0;
-    padding: 0;
+  &__body {
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+    padding: 17px 0 0 5px;
+    display: grid;
+    letter-spacing: -0.6px;
+  }
+
+  &__header {
+    color: #000;
+    font-size: 34px;
+    text-align: center;
+    display: grid;
+    padding: 29px 0 0 0;
+    letter-spacing: -5px;
+    border-top: 2px solid #01f;
+    border-radius: 8px;
   }
 
   &__buy-button {
@@ -474,62 +484,33 @@ nav .grid-40 {
     height: 52px;
     background: #cdd6db;
     display: inline-block;
-    margin: 75px 0 0 27px;
+    margin: 54px 0 0 27px;
   }
 
   &__buy-text {
-    padding: 18px 0 0 0;
+    padding: 15px 0 0;
     font-size: 18px;
     color: cadetblue;
+  }
+
+  &__ili {
+    font-size: 15px;
+    color: #4e4e4e;
+    text-align: center;
+    padding: 11px 0 0 8px;
+    display: block;
   }
 
   &__aside {
     background-color: #e2e2e2;
     margin: 28px 0 0 0;
     position: relative;
-
-    &--functions {
-      color: rgb(102, 102, 102);
-      font-size: 16px;
-      margin: 0;
-    }
-
-    &--ftraffic {
-      color: rgb(102, 102, 102);
-      padding: 0 0 0 30px;
-      margin: 0;
-    }
-  }
-
-  &__block-info {
-    list-style-type: none;
-    position: relative;
-    border-bottom: 2px solid #4a4a4a;
-    padding: 22px 0 0 52px;
-
-    &::before,
-    &::after {
-      position: absolute;
-      width: 3px;
-      height: 9px;
-      background-color: rgb(95, 179, 0);
-      left: -8px;
-      top: 6px;
-      content: "";
-      transform: rotate(45deg);
-    }
-
-    &::after {
-      height: 3px;
-      left: -12px;
-      top: 9px;
-    }
   }
 
   .images_sherlosk {
     position: absolute;
     left: -527px;
-    bottom: -127px
+    bottom: -9px;
   }
 
   .images_sherlosk img {
@@ -538,29 +519,14 @@ nav .grid-40 {
 
   &__centr {
     background-color: #e7e7e7;
-    height: 723px;
   }
 
-  &__header {
-    color: #000;
-    font-size: 34px;
+  &__text-block {
     text-align: center;
-    display: grid;
-    padding: 29px 0 0 0;
-    letter-spacing: -5px;
-
-    &--max {
-      padding: 29px 22px 0 0;
-    }
-  }
-
-  &__body {
-    text-align: center;
-    color: #000;
-    font-size: 13px;
-    padding: 17px 0 0 17px;
-    display: grid;
-    letter-spacing: -0.6px;
+    display: flex;
+    font-size: 14px;
+    color: cornflowerblue;
+    padding: 14px 0 0 59px;
   }
 
   &__price {
@@ -570,14 +536,78 @@ nav .grid-40 {
     text-align: center;
     padding: 10px 0 17px 0;
 
-    &__ruble {
-      padding: 28px 11px 0 0;
+    &--ruble {
+      padding: 0;
+      margin: 0;
       display: inline-block;
       font-size: 20px;
     }
+
+    &--quantity {
+      padding: 0;
+      margin: 0;
+      font-size: 35px;
+    }
+
+    &--month {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+    }
   }
 
-  &__quantity {
-    font-size: 35px;
+  &__list-info {
+    margin: 18px 20px;
+    padding: 0;
+  }
+
+  &__block-info {
+    list-style-type: none;
+    position: relative;
+    border-bottom: 2px solid #4a4a4a;
+    padding: 10px 0;
+    padding-left: 35px;
+
+    &::before,
+    &::after {
+      position: absolute;
+      width: 3px;
+      height: 9px;
+      background-color: rgb(95, 179, 0);
+      left: 15px;
+      top: 50%;
+      content: "";
+      transform: rotate(45deg) translate(-50%, 0);
+    }
+
+    &::after {
+      height: 3px;
+      left: calc(15px - 4px);
+      top: calc(50% + 3px);
+    }
+  }
+
+  &__functions {
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    margin: 0;
+  }
+
+  &__ftraffic-figure {
+    float: right;
+    width: 35%;
+    margin: 0;
+    color: #989797;
+    padding: 4px 14px 0 0;
+    font-size: 14.7px;
+  }
+
+  &__ftraffic {
+    color: rgb(255, 0, 0);
+    float: right;
+    width: 35%;
+    margin: 0;
+    padding: 4px 14px 0 0;
+    font-size: 14.7px;
   }
 }
