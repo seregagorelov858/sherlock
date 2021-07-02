@@ -409,7 +409,7 @@ nav .grid-40 {
   &__sherlock_one {
     padding: 0 0 0 7px;
     font-size: 35px;
-    color: rgb(74, 148, 0);
+    color: #97b254;
     font-weight: 600;
     letter-spacing: -2px;
   }
@@ -444,13 +444,62 @@ nav .grid-40 {
   }
 }
 
+.offers {
+  position: relative;
 
+  &__social {
+    position: absolute;
+    right: -293px;
+    top: 69px;
+
+    &-link {
+      display: block;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 7px;
+    }
+
+    &-circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+
+      &--vk {
+        background-color: #5b7fa6;
+      }
+
+      &--fb {
+        background-color: #415a99;
+      }
+
+      &--ok {
+        background-color: #f38104;
+      }
+
+      &--tw {
+        background-color: #00caff;
+      }
+
+      &--pencil {
+        background-color: #97b254;
+      }
+    }
+
+    &-icon {
+      width: 50%;
+      max-width: 100%;
+      height: 50%;
+    }
+  }
+}
 
 .offer {
   margin: 77px 0 0 0;
-  background-color: #d4d4d4;
-  height: 768px;
+  background-color: #f2f1f1;
   width: 100%;
+  padding: 0 0 24px 0;
 
   &__body {
     text-align: center;
@@ -468,8 +517,19 @@ nav .grid-40 {
     display: grid;
     padding: 29px 0 0 0;
     letter-spacing: -5px;
-    border-top: 2px solid #01f;
+    border-top: 2px solid #7ca3cc;
     border-radius: 8px;
+
+    &--pro {
+      border-top: 4px solid #97b254;
+      font-size: 59px;
+      padding: 26px 9px 0 0;
+    }
+
+    &--right {
+      border-top: 2px solid #f9a900;
+      padding: 26px 18px 0 0;
+    }
   }
 
   &__buy-button {
@@ -482,15 +542,33 @@ nav .grid-40 {
     border-radius: 49px;
     width: 313px;
     height: 52px;
-    background: #cdd6db;
+    border: 2px solid #cdd6db;
     display: inline-block;
     margin: 54px 0 0 27px;
+
+    &--centr {
+      background: #97b254;
+    }
+
+    &--right {
+      border: 2px solid #f9a900;
+      margin: 13px 0 0 15px;
+    }
   }
 
   &__buy-text {
     padding: 15px 0 0;
     font-size: 18px;
     color: cadetblue;
+
+    &--centr {
+      color: #e2e2e2;
+      padding: 19px 23px 0 0;
+    }
+
+    &--right {
+      color: #f9a900;
+    }
   }
 
   &__ili {
@@ -510,7 +588,7 @@ nav .grid-40 {
   .images_sherlosk {
     position: absolute;
     left: -527px;
-    bottom: -9px;
+    bottom: -82px;
   }
 
   .images_sherlosk img {
@@ -518,14 +596,14 @@ nav .grid-40 {
   }
 
   &__centr {
-    background-color: #e7e7e7;
+    background-color: #f4f4f4;
   }
 
   &__text-block {
     text-align: center;
     display: flex;
     font-size: 14px;
-    color: cornflowerblue;
+    color: 7ca3cc;
     padding: 14px 0 0 59px;
   }
 
@@ -554,6 +632,15 @@ nav .grid-40 {
       margin: 0;
       display: inline-block;
     }
+
+    &--centr {
+      background-color: #97b254;
+      margin: 15px 26px 0 22px;
+    }
+
+    &--right {
+      margin: 22px 32px 0 15px;
+    }
   }
 
   &__list-info {
@@ -573,7 +660,7 @@ nav .grid-40 {
       position: absolute;
       width: 3px;
       height: 9px;
-      background-color: rgb(95, 179, 0);
+      background-color: #97b254;
       left: 15px;
       top: 50%;
       content: "";
@@ -609,5 +696,13 @@ nav .grid-40 {
     margin: 0;
     padding: 4px 14px 0 0;
     font-size: 14.7px;
+  }
+
+  &__centr {
+    margin: 50px 0 0 0;
+    padding: 0 0 24px;
+    -webkit-box-shadow: 0 7px 21px -3px #97b254;
+    -moz-box-shadow: 0 7px 21px -3px #97b254;
+    box-shadow: 0 7px 21px -3px #97b254;
   }
 }
