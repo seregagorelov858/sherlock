@@ -551,6 +551,96 @@ nav .grid-40 {
     -moz-box-shadow: 0 7px 21px -3px #97b254;
     box-shadow: 0 7px 21px -3px #97b254; }
 
+.optimized-platform h3 {
+  font-size: 40px;
+  letter-spacing: -4.2px; }
+
+.optimized-platform .row {
+  padding: 64px 0 0 150px;
+  display: inline-block;
+  text-align: center; }
+  .optimized-platform .row__bottom {
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 36px 5px 0 0;
+    letter-spacing: -0.5px; }
+
+.optimized-platform__modx {
+  height: 100px;
+  width: 250px;
+  margin: 15px 0 0 -20px; }
+
+.optimized-platform__bitrix {
+  height: 55px;
+  width: 285px;
+  padding: 39px 0 0 3px; }
+
+.optimized-platform__presta {
+  height: 71px;
+  width: 300px;
+  padding: 30px 0 0 44px; }
+
+.optimized-platform__dle {
+  height: 91px;
+  width: 200px;
+  padding: 32px 0 0 95px; }
+
+.optimized-platform__umicms {
+  height: 91px;
+  width: 275px;
+  margin: 20px 0 0 -21px; }
+
+.optimized-platform__openkart {
+  height: 52px;
+  width: 265px;
+  padding: 41px 0 0 60px; }
+
+.optimized-platform__netcat {
+  height: 91px;
+  width: 115px;
+  padding: 21px 0 0 122px; }
+
+.optimized-platform__drupal {
+  height: 95px;
+  width: 111px;
+  padding: 20px 0 0 97px; }
+
+.optimized-platform__joomla {
+  height: 99px;
+  width: 144px;
+  padding: 15px 0 0 38px; }
+
+.optimized-platform__wordpress {
+  height: 100px;
+  padding: 16px 0 0 19px; }
+
+.advantage {
+  position: relative;
+  background: url(/src/img/fon23.png) no-repeat center center;
+  max-width: 100%;
+  width: 100%;
+  margin: 36px 0 0;
+  padding: 27px 0 40px 0; }
+  .advantage h4 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: -1px; }
+  .advantage__img-container {
+    display: flex;
+    justify-content: center;
+    padding: 22px 0 0 0; }
+  .advantage__name {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    display: inline-block; }
+    .advantage__name--bottom {
+      font-size: 13px;
+      color: #ffffff;
+      padding: 18px 0 0 0; }
+
 /*Responsive start*/
 /*UltraLarge screens start*/
 /*UltraLarge screens stop*/
