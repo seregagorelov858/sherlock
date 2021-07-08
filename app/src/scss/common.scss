@@ -14,9 +14,6 @@ body {
     margin: 37px 30px 0 0;
   }
 
-  img {
-    margin-top: 17px;
-  }
 }
 
 .phone {
@@ -41,22 +38,24 @@ body {
 }
 
 .links {
+
+  padding: 31px 0 0 0;
+
   &__chat {
     float: left;
 
     img {
       height: 15px;
       width: 20px;
-      margin: 49px 5px 0 -17px;
+      margin: 0 5px 0 -17px;
     }
   }
 
   &__online_chat {
     font-size: 12px;
-    color: green;
+    color: #abcb3e;
     letter-spacing: 0.6px;
     text-decoration: underline;
-    margin: 49px 0 0 8px;
     display: inline-block;
   }
 
@@ -65,7 +64,7 @@ body {
     letter-spacing: 0.8px;
     text-decoration: underline;
     display: inline-block;
-    margin: 41px 0 0 35px;
+
   }
 
   &__support {
@@ -73,17 +72,16 @@ body {
     letter-spacing: 0.8px;
     text-decoration: underline;
     display: inline-block;
-    margin: 40px 0 0 25px;
+
   }
 
   &__entrance {
     color: #989797;
-    background: rgba(42, 250, 0, 0.2);
+    background: #abcb3e;
     width: 95px;
     height: 28px;
     border-radius: 20px;
     float: right;
-    margin: 38px 3px 0 0;
     padding: 11px 0 0 0;
     font-size: 14px;
     text-align: center;
@@ -180,19 +178,10 @@ nav .grid-40 {
   width: 100%;
   height: 553px;
   margin: 8px 0 0;
-  display: grid;
   background-size: 378px 640px, cover;
   background-position: 220px 21px, 0 0;
+  position: relative;
 }
-
-/*
-.soft_bar img{
-  height: 10px;
-  width: 10px;
-  display: grid;
-  background-image: 10px;
-}
-*/
 
 .logo_sherlock {
   height: 636px;
@@ -203,24 +192,27 @@ nav .grid-40 {
 }
 
 .unlimited {
+  border: 1px solid #dbdee0;
+  margin: 17px 33px 0 26px;
+  border-radius: 4px;
+  padding: 19px 0 37px 141px;
+  position: relative;
+  top: 78px;
+  left: 48px;
+
   &__hosting {
     color: #fff;
     font-size: 43px;
     display: inline-block;
-    padding: 120px 0 0 220px;
     text-align: center;
-    display: grid;
-    padding: 115px 0 0 0;
     font-weight: 600;
     letter-spacing: -3.9px;
   }
 
   &__hosting_one {
-    color: rgb(81, 255, 0);
-    font-size: 43px;
-    float: left;
+    color: #abcb3e;
+    font-size: 40px;
     text-align: center;
-    display: grid;
     font-weight: 600;
     letter-spacing: -3.9px;
   }
@@ -229,7 +221,6 @@ nav .grid-40 {
     color: #fff;
     font-size: 43px;
     text-align: center;
-    display: grid;
     font-weight: 600;
     letter-spacing: -3.9px;
   }
@@ -238,15 +229,25 @@ nav .grid-40 {
     font-size: 20px;
     color: #fff;
   }
-
-  &__services img {
-    height: 50px;
-    width: 50px;
-  }
 }
 
 .features {
-  padding: 0 0 0 10px;
+  position: absolute;
+  bottom: 73px;
+  padding: 0 0 0 52px;
+
+  &__top {
+    font-size: 18px;
+    color: #abcb3e;
+    font-weight: 600;
+    letter-spacing: -2.2px;
+  }
+
+  &__bottom {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+  }
 }
 
 .order {
@@ -271,6 +272,13 @@ nav .grid-40 {
       padding: 0;
       display: inline-block;
       font-weight: 600;
+    }
+
+    &--month {
+      padding: 100px 0 0 0;
+      margin: 0;
+      display: inline-block;
+      font-size: 28px;
     }
 
     &--ili {
@@ -383,14 +391,14 @@ nav .grid-40 {
       letter-spacing: -0.6px;
       line-height: 29.5px;
       font-weight: 600;
-      color: green;
+      color: #abcb3e;
       text-decoration: underline;
     }
   }
 }
 
 .virtual_hosting {
-  background-color: rgb(212, 212, 212);
+  background-color: #e4e4e4;
   width: 100%;
   height: 223px;
 }
@@ -421,11 +429,16 @@ nav .grid-40 {
     text-decoration: none;
 
     &--linux {
-      padding: 59px 36px 0 0;
+      padding: 11px 63px 0 31px;
+      background: rgb(207, 207, 207);
+      margin: 49px 0 0 0;
     }
 
     &--windows {
-      padding: 56px 0 0 25px;
+      padding: 7px 0 0 31px;
+      background: white;
+      border: 2px solid rgb(179, 179, 179);
+      margin: 49px 0 0 0;
     }
   }
 
@@ -448,9 +461,9 @@ nav .grid-40 {
   position: relative;
 
   &__social {
-    position: absolute;
-    right: -293px;
-    top: 69px;
+    position: fixed;
+    right: 70px;
+    top: 70px;
 
     &-link {
       display: block;
@@ -627,12 +640,6 @@ nav .grid-40 {
       font-size: 35px;
     }
 
-    &--month {
-      padding: 0;
-      margin: 0;
-      display: inline-block;
-    }
-
     &--centr {
       background-color: #97b254;
       margin: 15px 26px 0 22px;
@@ -708,6 +715,8 @@ nav .grid-40 {
 }
 
 .optimized-platform {
+  background: rgb(207, 207, 207);
+
   h3 {
     font-size: 40px;
     letter-spacing: -4.2px;
@@ -793,7 +802,6 @@ nav .grid-40 {
   max-width: 100%;
   width: 100%;
   margin: 36px 0 0;
-  padding: 27px 0 40px 0;
 
   h4 {
     color: #fff;
@@ -802,12 +810,20 @@ nav .grid-40 {
     letter-spacing: -1px;
   }
 
-  &__link {
-
+  &__block-one {
+    padding: 25px 0 0 0;
   }
 
-  &__functions-img {
-    
+  &__block-two {
+    padding: 60px 0 0 0;
+  }
+
+  &__block-three {
+    padding: 90px 0 0 0;
+  }
+
+  &__block-four {
+    padding: 87px 0 89px 0;
   }
 
   &__img-container {
@@ -816,17 +832,49 @@ nav .grid-40 {
     padding: 22px 0 0 0;
   }
 
+  &__span-name {
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
 
   &__name {
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: #fff;
     text-align: center;
     display: inline-block;
+    font-weight: 600;
 
     &--bottom {
       font-size: 13px;
       color: #ffffff;
       padding: 18px 0 0 0;
     }
+  }
+
+  &__link-button {
+    background-color: #ffb84d;
+    border-radius: 30px;
+    padding: 22px 0 20px 0;
+    position: absolute;
+    width: 250px;
+    bottom: 120px;
+    right: 379px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.new-level {
+  background-color: rgb(73, 96, 199);
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
+
+  h4 {
+    font-size: 38px;
+    letter-spacing: -1px;
+    text-align: center;
   }
 }

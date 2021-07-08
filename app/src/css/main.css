@@ -30,9 +30,6 @@ body {
   float: right;
   margin: 37px 30px 0 0; }
 
-.toolbar img {
-  margin-top: 17px; }
-
 .phone {
   display: flex;
   padding: 44px 0 0 25px; }
@@ -47,46 +44,40 @@ body {
     font-weight: 600;
     letter-spacing: -0.6px; }
 
-.links__chat {
-  float: left; }
-  .links__chat img {
-    height: 15px;
-    width: 20px;
-    margin: 49px 5px 0 -17px; }
-
-.links__online_chat {
-  font-size: 12px;
-  color: green;
-  letter-spacing: 0.6px;
-  text-decoration: underline;
-  margin: 49px 0 0 8px;
-  display: inline-block; }
-
-.links__advantages {
-  font-size: 12px;
-  letter-spacing: 0.8px;
-  text-decoration: underline;
-  display: inline-block;
-  margin: 41px 0 0 35px; }
-
-.links__support {
-  font-size: 12px;
-  letter-spacing: 0.8px;
-  text-decoration: underline;
-  display: inline-block;
-  margin: 40px 0 0 25px; }
-
-.links__entrance {
-  color: #989797;
-  background: rgba(42, 250, 0, 0.2);
-  width: 95px;
-  height: 28px;
-  border-radius: 20px;
-  float: right;
-  margin: 38px 3px 0 0;
-  padding: 11px 0 0 0;
-  font-size: 14px;
-  text-align: center; }
+.links {
+  padding: 31px 0 0 0; }
+  .links__chat {
+    float: left; }
+    .links__chat img {
+      height: 15px;
+      width: 20px;
+      margin: 0 5px 0 -17px; }
+  .links__online_chat {
+    font-size: 12px;
+    color: #abcb3e;
+    letter-spacing: 0.6px;
+    text-decoration: underline;
+    display: inline-block; }
+  .links__advantages {
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    text-decoration: underline;
+    display: inline-block; }
+  .links__support {
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    text-decoration: underline;
+    display: inline-block; }
+  .links__entrance {
+    color: #989797;
+    background: #abcb3e;
+    width: 95px;
+    height: 28px;
+    border-radius: 20px;
+    float: right;
+    padding: 11px 0 0 0;
+    font-size: 14px;
+    text-align: center; }
 
 .free_calls {
   font-size: 11.3px;
@@ -160,18 +151,10 @@ nav .grid-40 {
   width: 100%;
   height: 553px;
   margin: 8px 0 0;
-  display: grid;
   background-size: 378px 640px, cover;
-  background-position: 220px 21px, 0 0; }
+  background-position: 220px 21px, 0 0;
+  position: relative; }
 
-/*
-.soft_bar img{
-  height: 10px;
-  width: 10px;
-  display: grid;
-  background-image: 10px;
-}
-*/
 .logo_sherlock {
   height: 636px;
   width: 391px;
@@ -179,44 +162,50 @@ nav .grid-40 {
   position: absolute;
   top: 21px; }
 
-.unlimited__hosting {
-  color: #fff;
-  font-size: 43px;
-  display: inline-block;
-  padding: 120px 0 0 220px;
-  text-align: center;
-  display: grid;
-  padding: 115px 0 0 0;
-  font-weight: 600;
-  letter-spacing: -3.9px; }
-
-.unlimited__hosting_one {
-  color: #51ff00;
-  font-size: 43px;
-  float: left;
-  text-align: center;
-  display: grid;
-  font-weight: 600;
-  letter-spacing: -3.9px; }
-
-.unlimited__hosting_two {
-  color: #fff;
-  font-size: 43px;
-  text-align: center;
-  display: grid;
-  font-weight: 600;
-  letter-spacing: -3.9px; }
-
-.unlimited__hosting_three {
-  font-size: 20px;
-  color: #fff; }
-
-.unlimited__services img {
-  height: 50px;
-  width: 50px; }
+.unlimited {
+  border: 1px solid #dbdee0;
+  margin: 17px 33px 0 26px;
+  border-radius: 4px;
+  padding: 19px 0 37px 141px;
+  position: relative;
+  top: 78px;
+  left: 48px; }
+  .unlimited__hosting {
+    color: #fff;
+    font-size: 43px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -3.9px; }
+  .unlimited__hosting_one {
+    color: #abcb3e;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -3.9px; }
+  .unlimited__hosting_two {
+    color: #fff;
+    font-size: 43px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -3.9px; }
+  .unlimited__hosting_three {
+    font-size: 20px;
+    color: #fff; }
 
 .features {
-  padding: 0 0 0 10px; }
+  position: absolute;
+  bottom: 73px;
+  padding: 0 0 0 52px; }
+  .features__top {
+    font-size: 18px;
+    color: #abcb3e;
+    font-weight: 600;
+    letter-spacing: -2.2px; }
+  .features__bottom {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600; }
 
 .order__start {
   font-size: 50px;
@@ -236,6 +225,11 @@ nav .grid-40 {
     padding: 0;
     display: inline-block;
     font-weight: 600; }
+  .order__start--month {
+    padding: 100px 0 0 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 28px; }
   .order__start--ili {
     font-size: 25px;
     color: #fff;
@@ -325,11 +319,11 @@ nav .grid-40 {
       letter-spacing: -0.6px;
       line-height: 29.5px;
       font-weight: 600;
-      color: green;
+      color: #abcb3e;
       text-decoration: underline; }
 
 .virtual_hosting {
-  background-color: #d4d4d4;
+  background-color: #e4e4e4;
   width: 100%;
   height: 223px; }
 
@@ -355,9 +349,14 @@ nav .grid-40 {
   align-items: center;
   text-decoration: none; }
   .OStariffs__link--linux {
-    padding: 59px 36px 0 0; }
+    padding: 11px 63px 0 31px;
+    background: #cfcfcf;
+    margin: 49px 0 0 0; }
   .OStariffs__link--windows {
-    padding: 56px 0 0 25px; }
+    padding: 7px 0 0 31px;
+    background: white;
+    border: 2px solid #b3b3b3;
+    margin: 49px 0 0 0; }
 
 .OStariffs__icon {
   height: 63px; }
@@ -372,9 +371,9 @@ nav .grid-40 {
 .offers {
   position: relative; }
   .offers__social {
-    position: absolute;
-    right: -293px;
-    top: 69px; }
+    position: fixed;
+    right: 70px;
+    top: 70px; }
     .offers__social-link {
       display: block;
       border-radius: 50%;
@@ -495,10 +494,6 @@ nav .grid-40 {
       padding: 0;
       margin: 0;
       font-size: 35px; }
-    .offer__price--month {
-      padding: 0;
-      margin: 0;
-      display: inline-block; }
     .offer__price--centr {
       background-color: #97b254;
       margin: 15px 26px 0 22px; }
@@ -551,95 +546,119 @@ nav .grid-40 {
     -moz-box-shadow: 0 7px 21px -3px #97b254;
     box-shadow: 0 7px 21px -3px #97b254; }
 
-.optimized-platform h3 {
-  font-size: 40px;
-  letter-spacing: -4.2px; }
-
-.optimized-platform .row {
-  padding: 64px 0 0 150px;
-  display: inline-block;
-  text-align: center; }
-  .optimized-platform .row__bottom {
-    color: black;
-    text-align: center;
-    display: block;
-    padding: 36px 5px 0 0;
-    letter-spacing: -0.5px; }
-
-.optimized-platform__modx {
-  height: 100px;
-  width: 250px;
-  margin: 15px 0 0 -20px; }
-
-.optimized-platform__bitrix {
-  height: 55px;
-  width: 285px;
-  padding: 39px 0 0 3px; }
-
-.optimized-platform__presta {
-  height: 71px;
-  width: 300px;
-  padding: 30px 0 0 44px; }
-
-.optimized-platform__dle {
-  height: 91px;
-  width: 200px;
-  padding: 32px 0 0 95px; }
-
-.optimized-platform__umicms {
-  height: 91px;
-  width: 275px;
-  margin: 20px 0 0 -21px; }
-
-.optimized-platform__openkart {
-  height: 52px;
-  width: 265px;
-  padding: 41px 0 0 60px; }
-
-.optimized-platform__netcat {
-  height: 91px;
-  width: 115px;
-  padding: 21px 0 0 122px; }
-
-.optimized-platform__drupal {
-  height: 95px;
-  width: 111px;
-  padding: 20px 0 0 97px; }
-
-.optimized-platform__joomla {
-  height: 99px;
-  width: 144px;
-  padding: 15px 0 0 38px; }
-
-.optimized-platform__wordpress {
-  height: 100px;
-  padding: 16px 0 0 19px; }
+.optimized-platform {
+  background: #cfcfcf; }
+  .optimized-platform h3 {
+    font-size: 40px;
+    letter-spacing: -4.2px; }
+  .optimized-platform .row {
+    padding: 64px 0 0 150px;
+    display: inline-block;
+    text-align: center; }
+    .optimized-platform .row__bottom {
+      color: black;
+      text-align: center;
+      display: block;
+      padding: 36px 5px 0 0;
+      letter-spacing: -0.5px; }
+  .optimized-platform__modx {
+    height: 100px;
+    width: 250px;
+    margin: 15px 0 0 -20px; }
+  .optimized-platform__bitrix {
+    height: 55px;
+    width: 285px;
+    padding: 39px 0 0 3px; }
+  .optimized-platform__presta {
+    height: 71px;
+    width: 300px;
+    padding: 30px 0 0 44px; }
+  .optimized-platform__dle {
+    height: 91px;
+    width: 200px;
+    padding: 32px 0 0 95px; }
+  .optimized-platform__umicms {
+    height: 91px;
+    width: 275px;
+    margin: 20px 0 0 -21px; }
+  .optimized-platform__openkart {
+    height: 52px;
+    width: 265px;
+    padding: 41px 0 0 60px; }
+  .optimized-platform__netcat {
+    height: 91px;
+    width: 115px;
+    padding: 21px 0 0 122px; }
+  .optimized-platform__drupal {
+    height: 95px;
+    width: 111px;
+    padding: 20px 0 0 97px; }
+  .optimized-platform__joomla {
+    height: 99px;
+    width: 144px;
+    padding: 15px 0 0 38px; }
+  .optimized-platform__wordpress {
+    height: 100px;
+    padding: 16px 0 0 19px; }
 
 .advantage {
   position: relative;
   background: url(/src/img/fon23.png) no-repeat center center;
   max-width: 100%;
   width: 100%;
-  margin: 36px 0 0;
-  padding: 27px 0 40px 0; }
+  margin: 36px 0 0; }
   .advantage h4 {
     color: #fff;
     font-size: 35px;
     text-align: center;
     letter-spacing: -1px; }
+  .advantage__block-one {
+    padding: 25px 0 0 0; }
+  .advantage__block-two {
+    padding: 60px 0 0 0; }
+  .advantage__block-three {
+    padding: 90px 0 0 0; }
+  .advantage__block-four {
+    padding: 87px 0 89px 0; }
   .advantage__img-container {
     display: flex;
     justify-content: center;
     padding: 22px 0 0 0; }
+  .advantage__span-name {
+    text-align: center;
+    padding: 20px 0 0 0; }
   .advantage__name {
     font-size: 20px;
-    color: white;
+    color: #fff;
     text-align: center;
-    display: inline-block; }
+    display: inline-block;
+    font-weight: 600; }
     .advantage__name--bottom {
       font-size: 13px;
       color: #ffffff;
       padding: 18px 0 0 0; }
+  .advantage__link-button {
+    background-color: #ffb84d;
+    border-radius: 30px;
+    padding: 22px 0 20px 0;
+    position: absolute;
+    width: 250px;
+    bottom: 120px;
+    right: 379px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center; }
+
+.new-level {
+  background-color: #4960c7;
+  width: 100%;
+  max-width: 100%;
+  height: 300px; }
+  .new-level h4 {
+    font-size: 38px;
+    letter-spacing: -1px;
+    text-align: center; }
 
 /*Responsive start*/
 /*UltraLarge screens start*/
