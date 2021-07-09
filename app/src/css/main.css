@@ -32,7 +32,7 @@ body {
 
 .phone {
   display: flex;
-  padding: 44px 0 0 25px; }
+  padding: 27px 0 0 25px; }
   .phone__images {
     width: 44px;
     margin: -5px 0 0 -1px; }
@@ -62,7 +62,8 @@ body {
     font-size: 12px;
     letter-spacing: 0.8px;
     text-decoration: underline;
-    display: inline-block; }
+    display: inline-block;
+    padding: 0 0 0 35px; }
   .links__support {
     font-size: 12px;
     letter-spacing: 0.8px;
@@ -71,11 +72,9 @@ body {
   .links__entrance {
     color: #989797;
     background: #abcb3e;
-    width: 95px;
-    height: 28px;
     border-radius: 20px;
     float: right;
-    padding: 11px 0 0 0;
+    padding: 15px 30px 8px 30px;
     font-size: 14px;
     text-align: center; }
 
@@ -143,6 +142,9 @@ nav .grid-25,
 nav .grid-40 {
   padding-left: 0;
   padding-right: 0; }
+
+nav {
+  padding: 16px 0 0 0; }
 
 .soft_bar {
   position: relative;
@@ -266,7 +268,8 @@ nav .grid-40 {
   width: 313px;
   height: 63px;
   position: relative;
-  margin: 6px 0 0 38px; }
+  margin: 6px 0 0 38px;
+  border: none; }
   .order__button--bottom {
     border: none;
     color: #fff;
@@ -279,7 +282,9 @@ nav .grid-40 {
     width: 313px;
     height: 52px;
     margin: 6px 0 0 38px;
-    background: #cdd6db;
+    height: 52px;
+    background: none;
+    border: 2px solid white;
     margin: 17px 0 0 38px;
     display: inline-block; }
 
@@ -355,7 +360,7 @@ nav .grid-40 {
   .OStariffs__link--windows {
     padding: 7px 0 0 31px;
     background: white;
-    border: 2px solid #b3b3b3;
+    border: 2px solid #cfcfcf;
     margin: 49px 0 0 0; }
 
 .OStariffs__icon {

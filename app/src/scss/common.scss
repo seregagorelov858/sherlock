@@ -18,7 +18,7 @@ body {
 
 .phone {
   display: flex;
-  padding: 44px 0 0 25px;
+  padding: 27px 0 0 25px;
 
   &__images {
     width: 44px;
@@ -64,6 +64,7 @@ body {
     letter-spacing: 0.8px;
     text-decoration: underline;
     display: inline-block;
+    padding: 0 0 0 35px;
 
   }
 
@@ -78,11 +79,9 @@ body {
   &__entrance {
     color: #989797;
     background: #abcb3e;
-    width: 95px;
-    height: 28px;
     border-radius: 20px;
     float: right;
-    padding: 11px 0 0 0;
+    padding: 15px 30px 8px 30px;
     font-size: 14px;
     text-align: center;
   }
@@ -168,6 +167,10 @@ nav .grid-25,
 nav .grid-40 {
   padding-left: 0;
   padding-right: 0;
+}
+
+nav {
+  padding: 16px 0 0 0;
 }
 
 .soft_bar {
@@ -324,6 +327,7 @@ nav .grid-40 {
     height: 63px;
     position: relative;
     margin: 6px 0 0 38px;
+    border: none;
 
     &--bottom {
       border: none;
@@ -337,7 +341,9 @@ nav .grid-40 {
       width: 313px;
       height: 52px;
       margin: 6px 0 0 38px;
-      background: #cdd6db;
+      height: 52px;
+background: none;
+border: 2px solid white;
       margin: 17px 0 0 38px;
       display: inline-block;
     }
@@ -437,7 +443,7 @@ nav .grid-40 {
     &--windows {
       padding: 7px 0 0 31px;
       background: white;
-      border: 2px solid rgb(179, 179, 179);
+      border: 2px solid #cfcfcf;
       margin: 49px 0 0 0;
     }
   }
