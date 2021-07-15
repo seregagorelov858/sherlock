@@ -13,3 +13,139 @@ body {
 	color: $text-gray;
 }
 
+@font-face {
+	font-family: Roboto; /* Имя шрифта */
+	src: url("../fonts/Roboto\ regular.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "serif 700"; /* Имя шрифта */
+	src: url("../fonts/PT\ Serif\ 700.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PT Serif"; /* Имя шрифта */
+	src: url("../fonts/PT\ Serif\ 700italic.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "PT Serif"; /* Имя шрифта */
+	src: url("../fonts/PT\ Serif\ italic.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "PT Serif"; /* Имя шрифта */
+	src: url("../fonts/PT\ Serif\ regular.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 400;
+}
+
+
+
+
+@font-face {
+	font-family: "Roboto 100"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 100.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 100;
+	
+}
+
+@font-face {
+	font-family: "Roboto 100"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 100italic.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "Roboto 300"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 300.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Roboto 300"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 300italic.ttf")  format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 300;
+}
+
+
+@font-face {
+	font-family: "Roboto 500"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 500.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Roboto 500"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 500italic.ttf")  format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Roboto 700"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 700.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Roboto 700"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 700italic.ttf")  format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 700;
+}
+
+
+@font-face {
+	font-family: "Roboto 900"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 900.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Roboto 900"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ 900italic.ttf")  format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Roboto Condensed 300"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ Condensed\ 300.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Roboto 300italic"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ Condensed\ 300italic.ttf")  format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Roboto Condensed 700"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ Condensed\ 700.ttf") format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Roboto 700italic"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ Condensed\ 700italic.ttf")  format("opentype"); /* Путь к файлу со шрифтом */
+	font-weight: 700;
+}
+
+
+@font-face {
+	font-family: "Roboto Condensed italic"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ Condensed\ italic.ttf")  format("opentype"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+	font-family: "Roboto Condensed regular"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ Condensed\ regular.ttf")  format("opentype"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+	font-family: "Roboto regular"; /* Имя шрифта */
+	src: url("../fonts/Roboto\ regular.ttf")  format("opentype"); /* Путь к файлу со шрифтом */
+}
